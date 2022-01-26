@@ -19,6 +19,4 @@ public class DummyBot {
         return rsl;
     }
 
-
-
 }
