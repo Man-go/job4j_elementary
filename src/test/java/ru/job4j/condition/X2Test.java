@@ -52,12 +52,12 @@ public class X2Test {
     }
 
     @Test
-    public void whenA1B1C1X0Then2() {
+    public void whenA1B1C3X1Then5() {
         int a = 1;
         int b = 1;
-        int c = 0;
+        int c = 3;
         int x = 1;
-        int expected = 2;
+        int expected = 5;
         int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
