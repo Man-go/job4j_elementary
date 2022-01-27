@@ -14,5 +14,4 @@ public class MultipleSwitchWeek {
             default -> -1;
         };
     }
-
 }
