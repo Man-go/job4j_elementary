@@ -35,7 +35,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenFind4() {
+    public void whenArrayHas2Then3() {
         int[] data = new int[] {5, 2, 10, 2, 4};
         int el = 2;
         int start = 2;
@@ -46,7 +46,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenFind43() {
+    public void whenArrayHasNot43ThenMinus1() {
         int[] data = new int[] {5, 2, 10, 2, 4, -5, 0, 43};
         int el = 43;
         int start = 2;
