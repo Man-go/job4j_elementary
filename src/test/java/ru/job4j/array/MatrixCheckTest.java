@@ -24,7 +24,7 @@ public class MatrixCheckTest {
         char[][] input = {
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
-                {'X', 'Z', 'X'},
+                {'X', ' ', 'X'},
         };
         int row = 2;
         boolean result = MatrixCheck.monoHorizontal(input, row);
@@ -48,7 +48,7 @@ public class MatrixCheckTest {
         char[][] input = {
                 {' ', 'X', ' '},
                 {' ', 'X', ' '},
-                {' ', 'Z', ' '},
+                {' ', ' ', ' '},
         };
         int column = 1;
         boolean result = MatrixCheck.monoVertical(input, column);
