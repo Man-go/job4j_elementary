@@ -9,7 +9,7 @@ public class Max {
         return max(max(left, middle), right);
     }
 
-    public static int max(int left, int middle1, int middle2, int right) {
-        return max(max(left, middle1), max(middle2, right));
+    public static int max(int first, int second, int third, int fourth) {
+        return max(max(first, second), max(third, fourth));
     }
 }
